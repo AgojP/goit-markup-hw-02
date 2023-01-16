@@ -1,0 +1,52 @@
+:root {
+    --logo-color: #2196F3;
+}
+
+h1 {
+    color: #FFFFFF;
+    background: #2F303A;
+ 
+}
+
+h2{
+    text-decoration: none;
+    color :  #212121;
+}
+
+h3{
+    color: #212121;
+}
+
+a {
+    color: #757575;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--logo-color);
+}
+
+.logo {
+color: var(--logo-color);
+}
+
+.logo-2 {
+    color: #000000
+}
+
+.button:hover {
+    cursor: pointer;
+    color: var(--logo-color);
+}
+nav a {
+    color:#212121;
+    
+}
+
+nav a.active, nav a:hover {
+    color: var(--logo-color);
+}
+
+.text {
+    color: #757575;
+}
