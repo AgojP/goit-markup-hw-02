@@ -28,7 +28,10 @@ button {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
-  color: var(--main-text-color);
+  line-height: 1,8;
+  letter-spacing: 0.03em;
+  color: var(--background-color-section);
+  background: var(--logo-color);
   cursor: pointer;
   border-radius: 4px;
 }
@@ -61,6 +64,8 @@ nav a:hover {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1,16;
+  letter-spacing: 0.03em;
 }
 .main {
   color: #212121;
@@ -78,14 +83,13 @@ nav a:hover {
   text-align: center;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1,36;
   letter-spacing: 0.03em;
 }
 
 .button:hover {
-  cursor: pointer;
-  color: var(--background-color-section);
-  background: var(--logo-color);
+  color: var(--logo-color);
+  background: var(--secondary-text-color);
 }
 
 .text {
